@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-left {
+    width: 60%;
+    display: inline-block;
+    background-color: rgba(26, 116, 163, 0.20);
+    height: 100vh;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+}
+
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    width: 540px;
+}
+
+
+.container-right {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(255, 108, 34, 0.30);
+    height: 100vh;
+}
+
+img {
+    width: 520px;
+    height: 360px;
+    position: relative;
+    right: 28%;
+    top: 23%;
+    
+}
+
+
+button {
+
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+    
+}
